@@ -6,6 +6,7 @@
 </head>
 <body>
 <canvas id="canvas3D" width="400" height="300">Ваш браузер не поддерживает элемент canvas</canvas>
+
 <script id="shader-fs" type="x-shader/x-fragment">
 precision highp float;
 uniform sampler2D uSampler;
@@ -15,13 +16,15 @@ varying vec2 vTextureCoords;
     gl_FragColor = texture2D(uSampler, vTextureCoords);
   }
 </script>
+
 <script id="shader-vs" type="x-shader/x-vertex">
 attribute vec3 aVertexPosition;
+attribute vec2 aVertexTextureCoords;
 varying vec2 vTextureCoords;
 
   void main(void) {
     gl_Position = vec4(aVertexPosition, 1.0);
-    vTextureCoords = vec2(aVertexPosition.x+0.5,aVertexPosition.y+0.5);
+    vTextureCoords = aVertexTextureCoords;
   }
 </script>
 <script>
@@ -29,6 +32,7 @@ varying vec2 vTextureCoords;
     var shaderProgram;
     var vertexBuffer;
     var indexBuffer;
+    var textureCoordsBuffer; // буфер координат текстуры
 
     var texture; // переменная для хранения текстуры
 
@@ -51,9 +55,10 @@ varying vec2 vTextureCoords;
 
         shaderProgram.vertexPositionAttribute = gl.getAttribLocation(shaderProgram, "aVertexPosition");
         gl.enableVertexAttribArray(shaderProgram.vertexPositionAttribute);
+        shaderProgram.vertexTextureAttribute = gl.getAttribLocation(shaderProgram, "aVertexTextureCoords");
+        gl.enableVertexAttribArray(shaderProgram.vertexTextureAttribute);
     }
 
-    // Функция создания шейдера
     function getShader(type,id) {
         var source = document.getElementById(id).innerHTML;
 
@@ -74,10 +79,10 @@ varying vec2 vTextureCoords;
     function initBuffers() {
 
         var vertices =[
-            -0.5, -0.5, 0.5,
-            -0.5, 0.5, 0.5,
-            0.5, 0.5, 0.5,
-            0.5, -0.5, 0.5
+            -0.5, -0.5, 0.5, // v1
+            -0.5, 0.5, 0.5,  // v2
+            0.5, 0.5, 0.5,  // v3
+            0.5, -0.5, 0.5  // v4
         ];
 
         vertexBuffer = gl.createBuffer();
@@ -90,6 +95,19 @@ varying vec2 vTextureCoords;
         gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, indexBuffer);
         gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint16Array(indices), gl.STATIC_DRAW);
         indexBuffer.numberOfItems = indices.length;
+
+        // Координаты текстуры
+        var textureCoords = [
+            0.0, 0.0,
+            0.0, 1.0,
+            1.0, 1.0,
+            1.0, 0.0
+        ];
+        // Создание буфера координат текстуры
+        textureCoordsBuffer = gl.createBuffer();
+        gl.bindBuffer(gl.ARRAY_BUFFER, textureCoordsBuffer);
+        gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(textureCoords), gl.STATIC_DRAW);
+        textureCoordsBuffer.itemSize=2; // каждая вершина имеет две координаты
     }
 
     function draw() {
@@ -97,6 +115,12 @@ varying vec2 vTextureCoords;
         gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
         gl.vertexAttribPointer(shaderProgram.vertexPositionAttribute,
             vertexBuffer.itemSize, gl.FLOAT, false, 0, 0);
+
+        gl.bindBuffer(gl.ARRAY_BUFFER, textureCoordsBuffer);
+        gl.vertexAttribPointer(shaderProgram.vertexTextureAttribute,
+            textureCoordsBuffer.itemSize,  gl.FLOAT, false, 0, 0);
+        gl.activeTexture(gl.TEXTURE0);
+        gl.bindTexture(gl.TEXTURE_2D, texture);
 
         gl.drawElements(gl.TRIANGLES, indexBuffer.numberOfItems, gl.UNSIGNED_SHORT,0);
 
@@ -117,10 +141,8 @@ varying vec2 vTextureCoords;
         image.onload = function() {
 
             handleTextureLoaded(image, texture);
-
-            setupWebGL();
-            draw();
         }
+
         image.src = "sotnes.png";
 
         shaderProgram.samplerUniform = gl.getUniformLocation(shaderProgram, "uSampler");
@@ -133,6 +155,7 @@ varying vec2 vTextureCoords;
         gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
+        gl.bindTexture(gl.TEXTURE_2D, null);
     }
     window.onload=function(){
 
@@ -151,10 +174,25 @@ varying vec2 vTextureCoords;
 
             initShaders();
             initBuffers();
-
             setTextures();
+            (function animloop(){
+
+                setupWebGL();
+                draw();
+                requestAnimFrame(animloop, canvas);
+            })();
         }
     }
+    window.requestAnimFrame = (function(){
+        return  window.requestAnimationFrame       ||
+            window.webkitRequestAnimationFrame ||
+            window.mozRequestAnimationFrame    ||
+            window.oRequestAnimationFrame      ||
+            window.msRequestAnimationFrame     ||
+            function(callback, element) {
+                return window.setTimeout(callback, 1000/60);
+            };
+    })();
 </script>
 </body>
 </html>
