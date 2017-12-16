@@ -1,4 +1,3 @@
-<script type="text/javascript">
 var gl;
 var shaderProgram;
 var vertexBuffer;
@@ -158,4 +157,3 @@ window.requestAnimFrame = (function(){
             return window.setTimeout(callback, 1000/60);
         };
 })();
-</script>
