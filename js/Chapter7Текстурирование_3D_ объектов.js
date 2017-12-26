@@ -176,7 +176,7 @@ function setTextures(){
         handleTextureLoaded(image, texture);
     }
 
-    image.src = "sotnes.png";
+    image.src = "../image/sotnes.png";
 
     shaderProgram.samplerUniform = gl.getUniformLocation(shaderProgram, "uSampler");
     gl.uniform1i(shaderProgram.samplerUniform, 0);
