@@ -6,7 +6,7 @@
 </head>
 <body>
 <canvas id="canvas3D" width="400" height="300">Ваш браузер не поддерживает элемент canvas</canvas>
-<script  type="text/javascript" src="gl-matrix-min.js"></script>
+<script  type="text/javascript" src="../js/gl-matrix-min.js"></script>
 <!-- фрагментный шейдер -->
 <script id="shader-fs" type="x-shader/x-fragment">
   void main(void) {
@@ -22,7 +22,7 @@
      gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
   }
 </script>
-<script src="Использование%20матриц%20glMatrix%20для%20создания%203D.js">
+<script src="../js/Chapter5Использование%20матриц%20glMatrix%20для%20создания%203D.js">
 
 </script>
 </body>

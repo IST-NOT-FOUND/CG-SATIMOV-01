@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ae54c8-fc54-45df-ac20-defbeb9b01ae" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Glava_1/Chapter1IndividualCube.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Glava_2/Chapter2gl_Triangles_Fan.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Glava_1/Chapter1Cube.js" afterPath="$PROJECT_DIR$/js/Chapter1Cube.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Glava_1/Chapter1Triangle.js" afterPath="$PROJECT_DIR$/js/Chapter1Triangle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Glava_1/three.min.js" afterPath="$PROJECT_DIR$/js/three.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Glava_2/Chapter2gl_Triangles.js" afterPath="$PROJECT_DIR$/js/Chapter2gl_Triangles.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Glava_2/Создание_контекста.html" afterPath="$PROJECT_DIR$/js/Создание_контекста.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_2/gl_Triangles_Fan.html" afterPath="$PROJECT_DIR$/Glava_2/gl_Triangles_Fan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_2/Индивидуальное_ФИО.html" afterPath="$PROJECT_DIR$/Glava_2/Индивидуальное_ФИО.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_2/Конвейер_WebGL.html" afterPath="$PROJECT_DIR$/Glava_2/Конвейер_WebGL.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_2/Рисование_линии.html" afterPath="$PROJECT_DIR$/Glava_2/Рисование_линии.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_2/Создание_контекста.html" afterPath="$PROJECT_DIR$/Glava_2/Создание_контекста.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_3/Использование_шейдеров.html" afterPath="$PROJECT_DIR$/Glava_3/Использование_шейдеров.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_4/Индивидуальное_Семиугольник.html" afterPath="$PROJECT_DIR$/Glava_4/Индивидуальное_Семиугольник.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_4/Установка_цвета_вершины.html" afterPath="$PROJECT_DIR$/Glava_4/Установка_цвета_вершины.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_5/Дополнительно о матрицах в WebGL.html" afterPath="$PROJECT_DIR$/Glava_5/Дополнительно о матрицах в WebGL.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_5/Индивидуальное_РазноцветныйКуб.html" afterPath="$PROJECT_DIR$/Glava_5/Индивидуальное_РазноцветныйКуб.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_5/Первый_3D_объект.html" afterPath="$PROJECT_DIR$/Glava_5/Первый_3D_объект.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_6/Анимация объектов. Вращающийся куб.html" afterPath="$PROJECT_DIR$/Glava_6/Анимация объектов. Вращающийся куб.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_6/Индивидуальное_WASD.html" afterPath="$PROJECT_DIR$/Glava_6/Индивидуальное_WASD.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_6/Обработка_пользовательского_ввода.html" afterPath="$PROJECT_DIR$/Glava_6/Обработка_пользовательского_ввода.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_7/Индивидуальное_ФИО_текстуры.html" afterPath="$PROJECT_DIR$/Glava_7/Индивидуальное_ФИО_текстуры.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_7/Множественное_текстурирование.html" afterPath="$PROJECT_DIR$/Glava_7/Множественное_текстурирование.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_7/Работа_с_координатами_текстур.html" afterPath="$PROJECT_DIR$/Glava_7/Работа_с_координатами_текстур.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_7/Текстурирование_3D_ объектов.html" afterPath="$PROJECT_DIR$/Glava_7/Текстурирование_3D_ объектов.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_8/Индидуальное_Освещение.html" afterPath="$PROJECT_DIR$/Glava_8/Индидуальное_Освещение.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_8/Использование_материалов.html" afterPath="$PROJECT_DIR$/Glava_8/Использование_материалов.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_8/Модель_Фонга.html" afterPath="$PROJECT_DIR$/Glava_8/Модель_Фонга.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_8/Освещение_Ламберта.html" afterPath="$PROJECT_DIR$/Glava_8/Освещение_Ламберта.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_1/Cube.html" afterPath="$PROJECT_DIR$/Glava_1/Cube.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_1/IndividualCube.html" afterPath="$PROJECT_DIR$/Glava_1/IndividualCube.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_1/Triangle.html" afterPath="$PROJECT_DIR$/Glava_1/Triangle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Glava_2/gl_Triangles.html" afterPath="$PROJECT_DIR$/Glava_2/gl_Triangles.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +27,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Освещение_Ламберта.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Glava_8/Освещение_Ламберта.html">
+      <file leaf-file-name="Дополнительно о матрицах в WebGL.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Glava_5/Дополнительно о матрицах в WebGL.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+            <state relative-caret-position="425">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Использование матриц glMatrix для создания 3D.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Glava_5/Использование матриц glMatrix для создания 3D.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Окрашиваем куб.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Glava_5/Окрашиваем куб.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Первый_3D_объект.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Glava_5/Первый_3D_объект.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Введение в текстурирование.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Glava_7/Введение в текстурирование.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -64,9 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Glava_1/Треугольник.html" />
-        <option value="$PROJECT_DIR$/Glava_2/Chapter2gl_Triangles.js" />
-        <option value="$PROJECT_DIR$/Glava_2/gl_Triangles.html" />
         <option value="$PROJECT_DIR$/Glava_2/chapter2.js" />
         <option value="$PROJECT_DIR$/Glava_2/gl_Triangles_Fan.html" />
         <option value="$PROJECT_DIR$/Glava_2/Chapter2Individual_FIO.js" />
@@ -74,7 +100,6 @@
         <option value="$PROJECT_DIR$/Glava_2/Chapter2Конвейер_WebGL.js" />
         <option value="$PROJECT_DIR$/Glava_2/Конвейер_WebGL.html" />
         <option value="$PROJECT_DIR$/Glava_2/Chapter2Настройка_буфера вершин и буфер индексов.js" />
-        <option value="$PROJECT_DIR$/Glava_2/Настройка_буфера вершин и буфер индексов.html" />
         <option value="$PROJECT_DIR$/Glava_2/Chapter2Рисование_линии.js" />
         <option value="$PROJECT_DIR$/Glava_2/Рисование_линии.html" />
         <option value="$PROJECT_DIR$/Glava_3/Chapter3Использование_шейдеров.js" />
@@ -85,14 +110,11 @@
         <option value="$PROJECT_DIR$/Glava_4/Установка_цвета_вершины.html" />
         <option value="$PROJECT_DIR$/Glava_5/Chapter5Дополнительно о матрицах в WebGL.js" />
         <option value="$PROJECT_DIR$/Glava_5/Chapter5Использование матриц glMatrix для создания 3D.js" />
-        <option value="$PROJECT_DIR$/Glava_5/Использование матриц glMatrix для создания 3D.html" />
         <option value="$PROJECT_DIR$/Glava_5/Chapter5Окрашиваем куб.js" />
-        <option value="$PROJECT_DIR$/Glava_5/Окрашиваем куб.html" />
         <option value="$PROJECT_DIR$/Glava_5/Chapter5Первый_3D_объект.js" />
         <option value="$PROJECT_DIR$/Glava_5/Первый_3D_объект.html" />
         <option value="$PROJECT_DIR$/Glava_6/Chapter6Анимация объектов. Вращающийся куб.js" />
         <option value="$PROJECT_DIR$/Glava_7/Chapter7Введение в текстурирование.js" />
-        <option value="$PROJECT_DIR$/Glava_7/Введение в текстурирование.html" />
         <option value="$PROJECT_DIR$/Glava_7/Chapter7Индивидуальное_ФИО_текстуры.js" />
         <option value="$PROJECT_DIR$/Glava_7/Индивидуальное_ФИО_текстуры.html" />
         <option value="$PROJECT_DIR$/Glava_7/Chapter7Множественное_текстурирование.js" />
@@ -111,10 +133,17 @@
         <option value="$PROJECT_DIR$/Glava_6/Обработка_пользовательского_ввода.html" />
         <option value="$PROJECT_DIR$/Glava_6/Анимация объектов. Вращающийся куб.html" />
         <option value="$PROJECT_DIR$/Glava_6/Индивидуальное_WASD.html" />
-        <option value="$PROJECT_DIR$/Glava_5/Дополнительно о матрицах в WebGL.html" />
         <option value="$PROJECT_DIR$/Glava_7/Текстурирование_3D_ объектов.html" />
         <option value="$PROJECT_DIR$/Glava_5/Chapter5Индивидуальное_РазноцветныйКуб.js" />
         <option value="$PROJECT_DIR$/Glava_5/Индивидуальное_РазноцветныйКуб.html" />
+        <option value="$PROJECT_DIR$/Glava_1/Cube.html" />
+        <option value="$PROJECT_DIR$/Glava_1/IndividualCube.html" />
+        <option value="$PROJECT_DIR$/Glava_1/Triangle.html" />
+        <option value="$PROJECT_DIR$/Glava_2/Настройка_буфера вершин и буфер индексов.html" />
+        <option value="$PROJECT_DIR$/Glava_5/Дополнительно о матрицах в WebGL.html" />
+        <option value="$PROJECT_DIR$/Glava_5/Использование матриц glMatrix для создания 3D.html" />
+        <option value="$PROJECT_DIR$/Glava_5/Окрашиваем куб.html" />
+        <option value="$PROJECT_DIR$/Glava_7/Введение в текстурирование.html" />
       </list>
     </option>
   </component>
@@ -170,6 +199,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dusonte\Documents\CG-Satimov\js" />
+      <recent name="C:\Users\Dusonte\Documents\CG-Satimov" />
+      <recent name="C:\Users\Dusonte\Documents\CG-Satimov\Glava_1" />
       <recent name="C:\Users\Dusonte\Documents\CG-Satimov\Glava_7" />
       <recent name="C:\Users\Dusonte\Documents\labalcgg\CG-Satimov\Glava_1" />
     </key>
@@ -187,7 +219,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.Chapter2Создание_контекста.js">
-    <configuration name="Chapter2Создание_контекста.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Chapter2Создание_контекста.js" working-dir="$PROJECT_DIR$/Glava_2" />
+    <configuration name="Chapter2Создание_контекста.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/js/Chapter2Создание_контекста.js" working-dir="$PROJECT_DIR$/Glava_2" />
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Node.js.Chapter2Создание_контекста.js" />
@@ -215,18 +247,17 @@
       <workItem from="1513414186036" duration="7772000" />
       <workItem from="1513425056538" duration="2838000" />
       <workItem from="1513428097256" duration="1864000" />
-      <workItem from="1514220714395" duration="21345000" />
+      <workItem from="1514220714395" duration="22213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58268000" />
+    <option name="totallyTimeSpent" value="59136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25223213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25297618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4941435" order="1" side_tool="false" content_ui="tabs" />
@@ -275,76 +306,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Glava_2/Chapter2gl_Triangles_Fan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="94" column="1" lean-forward="false" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_2/gl_Triangles_Fan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_2/Chapter2Individual_FIO.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="111" column="1" lean-forward="false" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_2/Индивидуальное_ФИО.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_2/gl_Triangles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_2/Конвейер_WebGL.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_2/Chapter2Конвейер_WebGL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="100" column="1" lean-forward="false" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_2/Chapter2Настройка_буфера вершин и буфер индексов.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="104" column="1" lean-forward="false" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_2/Настройка_буфера вершин и буфер индексов.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_2/Chapter2Рисование_линии.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter2Рисование_линии.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="100" column="1" lean-forward="false" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
@@ -360,7 +322,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_3/Chapter3Использование_шейдеров.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter3Использование_шейдеров.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="101" column="1" lean-forward="false" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
@@ -376,14 +338,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_4/Chapter4Индивидуальное_Семиугольник.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter4Индивидуальное_Семиугольник.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="130" column="1" lean-forward="false" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_4/Chapter4Установка_цвета_вершины.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter4Установка_цвета_вершины.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="106" column="1" lean-forward="false" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
@@ -406,15 +368,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_5/Дополнительно о матрицах в WebGL.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_5/Chapter5Дополнительно о матрицах в WebGL.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter5Дополнительно о матрицах в WebGL.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
@@ -422,7 +376,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_5/Chapter5Использование матриц glMatrix для создания 3D.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter5Использование матриц glMatrix для создания 3D.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="123" column="1" lean-forward="false" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
@@ -430,29 +384,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_5/Использование матриц glMatrix для создания 3D.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_5/Chapter5Окрашиваем куб.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter5Окрашиваем куб.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="138" column="38" lean-forward="true" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_5/Chapter5Первый_3D_объект.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter5Первый_3D_объект.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="106" column="1" lean-forward="false" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_6/Chapter6Анимация объектов. Вращающийся куб.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter6Анимация объектов. Вращающийся куб.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="142" column="5" lean-forward="false" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
@@ -460,30 +406,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_5/Окрашиваем куб.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_7/Введение в текстурирование.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_7/Chapter7Введение в текстурирование.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter7Введение в текстурирование.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2193">
           <caret line="129" column="1" lean-forward="false" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_7/Chapter7Индивидуальное_ФИО_текстуры.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter7Индивидуальное_ФИО_текстуры.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="397" column="5" lean-forward="false" selection-start-line="397" selection-start-column="5" selection-end-line="397" selection-end-column="5" />
@@ -499,7 +429,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_7/Chapter7Множественное_текстурирование.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter7Множественное_текстурирование.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="374" column="5" lean-forward="false" selection-start-line="374" selection-start-column="5" selection-end-line="374" selection-end-column="5" />
@@ -523,7 +453,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_7/Chapter7Текстурирование_3D_ объектов.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter7Текстурирование_3D_ объектов.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="246" column="5" lean-forward="false" selection-start-line="246" selection-start-column="5" selection-end-line="246" selection-end-column="5" />
@@ -539,7 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_7/Chapter7Работа_с_координатами_текстур.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter7Работа_с_координатами_текстур.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="164" column="5" lean-forward="false" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
@@ -555,7 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_8/Chapter8Использование_материалов.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter8Использование_материалов.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="268" column="5" lean-forward="false" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
@@ -571,7 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_8/Chapter8Модель_Фонга.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter8Модель_Фонга.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="305" column="5" lean-forward="false" selection-start-line="305" selection-start-column="5" selection-end-line="305" selection-end-column="5" />
@@ -587,7 +517,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_8/Chapter8Освещение_Ламберта.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter8Освещение_Ламберта.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="254" column="5" lean-forward="false" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
@@ -603,7 +533,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_8/Chapter8Индидуальное_Освещение.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter8Индидуальное_Освещение.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="254" column="5" lean-forward="false" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
@@ -627,15 +557,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_5/Первый_3D_объект.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_5/Chapter5Индивидуальное_РазноцветныйКуб.js">
+    <entry file="file://$PROJECT_DIR$/js/Chapter5Индивидуальное_РазноцветныйКуб.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="169" column="1" lean-forward="false" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
@@ -651,18 +573,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_1/IndividualCube.html">
+    <entry file="file://$PROJECT_DIR$/Glava_1/Cube.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="102">
+          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_1/Cube.html">
+    <entry file="file://$PROJECT_DIR$/Glava_1/Triangle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state relative-caret-position="374">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Chapter1IndividualCube.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_2/gl_Triangles_Fan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_2/gl_Triangles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_1/IndividualCube.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_2/Настройка_буфера вершин и буфер индексов.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_2/Создание_контекста.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_2/Конвейер_WebGL.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_2/Индивидуальное_ФИО.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -671,6 +657,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gl-matrix-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_5/Дополнительно о матрицах в WebGL.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_5/Использование матриц glMatrix для создания 3D.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_5/Окрашиваем куб.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_5/Первый_3D_объект.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_7/Введение в текстурирование.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
           <folding />
         </state>
       </provider>

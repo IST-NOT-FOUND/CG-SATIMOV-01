@@ -6,7 +6,7 @@
 </head>
 <body>
 <canvas id="canvas3D" width="400" height="300">Ваш браузер не поддерживает элемент canvas</canvas>
-<script  type="text/javascript" src="gl-matrix-min.js"></script>
+<script  type="text/javascript" src="../js/gl-matrix-min.js"></script>
 
 <script id="shader-vs" type="x-shader/x-vertex">
   attribute vec3 aVertexPosition;
@@ -73,7 +73,7 @@
     gl_FragColor = vec4(vLightWeighting.rgb * texelColor.rgb, texelColor.a);
   }
 </script>
-<script src="Chapter8Модель_Фонга.js">
+<script src="../js/Chapter8Модель_Фонга.js">
 
 </script>
 </body>
