@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/Glava_8/Индидуальное_Освещение.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1292">
-              <caret line="301" column="42" lean-forward="true" selection-start-line="301" selection-start-column="42" selection-end-line="301" selection-end-column="42" />
+              <caret line="301" column="42" lean-forward="false" selection-start-line="301" selection-start-column="42" selection-end-line="301" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -228,12 +228,12 @@
       <workItem from="1513414186036" duration="7772000" />
       <workItem from="1513425056538" duration="2838000" />
       <workItem from="1513428097256" duration="1864000" />
-      <workItem from="1514220714395" duration="16635000" />
+      <workItem from="1514220714395" duration="16730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53558000" />
+    <option name="totallyTimeSpent" value="53653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -655,7 +655,7 @@
     <entry file="file://$PROJECT_DIR$/Glava_8/Индидуальное_Освещение.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
-          <caret line="301" column="42" lean-forward="true" selection-start-line="301" selection-start-column="42" selection-end-line="301" selection-end-column="42" />
+          <caret line="301" column="42" lean-forward="false" selection-start-line="301" selection-start-column="42" selection-end-line="301" selection-end-column="42" />
           <folding />
         </state>
       </provider>
