@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Индивидуальное_РазноцветныйКуб.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Glava_5/Индивидуальное_РазноцветныйКуб.html">
+      <file leaf-file-name="Индидуальное_Освещение.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Glava_8/Индидуальное_Освещение.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="145" column="25" lean-forward="true" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
+            <state relative-caret-position="1292">
+              <caret line="301" column="42" lean-forward="true" selection-start-line="301" selection-start-column="42" selection-end-line="301" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -40,7 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Glava_2/script.js" />
         <option value="$PROJECT_DIR$/Glava_2/index.html" />
         <option value="$PROJECT_DIR$/Glava_2/2_2.html" />
         <option value="$PROJECT_DIR$/Glava_2/2_3.html" />
@@ -91,6 +90,7 @@
         <option value="$USER_HOME$/Downloads/1/CG-Satimov/index.html" />
         <option value="$PROJECT_DIR$/Glava_5/Окрашиваем куб.html" />
         <option value="$PROJECT_DIR$/Glava_5/Индивидуальное_РазноцветныйКуб.html" />
+        <option value="$PROJECT_DIR$/Glava_8/Индидуальное_Освещение.html" />
       </list>
     </option>
   </component>
@@ -228,12 +228,12 @@
       <workItem from="1513414186036" duration="7772000" />
       <workItem from="1513425056538" duration="2838000" />
       <workItem from="1513428097256" duration="1864000" />
-      <workItem from="1514220714395" duration="16376000" />
+      <workItem from="1514220714395" duration="16635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53299000" />
+    <option name="totallyTimeSpent" value="53558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -288,13 +288,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Glava_4/Установка_цвета_вершины.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="106" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Glava_5/Дополнительно о матрицах в WebGL.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1802">
@@ -627,14 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Glava_8/Освещение_Ламберта.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2603">
-          <caret line="297" column="34" lean-forward="true" selection-start-line="297" selection-start-column="34" selection-end-line="297" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Glava_5/Окрашиваем куб.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -653,8 +638,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Glava_5/Индивидуальное_РазноцветныйКуб.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="-493">
           <caret line="145" column="25" lean-forward="true" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_8/Освещение_Ламберта.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="280" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="313" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Glava_8/Индидуальное_Освещение.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="301" column="42" lean-forward="true" selection-start-line="301" selection-start-column="42" selection-end-line="301" selection-end-column="42" />
           <folding />
         </state>
       </provider>
